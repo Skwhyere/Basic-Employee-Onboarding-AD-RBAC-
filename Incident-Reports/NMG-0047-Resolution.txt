@@ -1,0 +1,21 @@
+1. Janes User Identity is in the Operations OU.
+2. I found that Jane was in the Operations OU but needs to be in the HR OU, because she is a payroll specialist.
+3. She is in NMG.com/Users and NMG.com/Operations
+4. Jane Cooper is currently a member of operations-users, and should be a member of hr-users
+5. This caused the issue of not having access to the right tools becuase a different pre-set was given based off of the Operations OU instead of the HR OU. Moving to the correct OU.
+
+Ticket Number: NMG-0047
+
+Affected User: Jane Cooper (jcooper@NMG.com)
+
+Issues Reported: Unable to access HR shared resources. Desktop policies mapped drives differ from teammates.
+
+Root Cause: Jane was placed in the Operations OU instead of the HR OU, restricting her from certain data.
+
+Fix Applied: Moved her from the Operations OU to the HR OU, and updated her group memberships accordingly.
+
+Verification: I confirmed by checking the HR Group and OU and verifying she was moved, screenshots attatched.
+
+Date Resolved: 08/25/26
+
+Resolved By: Dominic Starr
